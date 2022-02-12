@@ -13,7 +13,7 @@ const About: React.FunctionComponent = () => {
     <section className="container mx-auto px-4">
       <div className="item-center flex flex-col-reverse text-center lg:-mx-4 lg:flex lg:flex-row lg:space-x-5 lg:text-left">
         <div className="lg:mt-12 lg:px-4 ">
-          <h1 className="text-2xl font-bold text-gray-900 dark:text-white lg:text-5xl">
+          <h1 className="mt-4 text-2xl font-bold text-gray-900 dark:text-white lg:text-5xl">
             Diego Herrada
           </h1>
           <div className="mt-6 text-gray-800 dark:text-white">
