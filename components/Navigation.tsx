@@ -8,6 +8,7 @@ const Navigation: React.FunctionComponent = () => {
       <div className="container mx-auto flex items-center justify-between px-4 lg:max-w-4xl">
         <Link href="/">
           <a
+            aria-label="Home"
             className={
               'font-medium uppercase tracking-wider text-gray-900 transition-colors hover:text-sky-500 dark:text-white'
             }

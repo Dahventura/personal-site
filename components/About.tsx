@@ -46,7 +46,7 @@ const About: React.FunctionComponent = () => {
           />
           <div className="mt-8 flex flex-row justify-center space-x-8">
             {socialLinks.map(({ name, icon, url }) => (
-              <a key={name} href={url} target="_blank">
+              <a aria-label={name} key={name} href={url} target="_blank">
                 <FontAwesomeIcon
                   icon={icon}
                   className="hover:bounceNew mb-1 h-8"
