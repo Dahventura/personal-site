@@ -4,7 +4,7 @@ import { ThemeSwitch } from '../components'
 
 const Navigation: React.FunctionComponent = () => {
   return (
-    <div className="sticky top-0 z-20 bg-white py-2 dark:bg-black md:mb-6 md:py-6">
+    <nav className="sticky top-0 z-20 bg-white py-2 dark:bg-black md:mb-6 md:py-6">
       <div className="container mx-auto flex items-center justify-between px-4 lg:max-w-4xl">
         <Link href="/">
           <a
@@ -18,7 +18,7 @@ const Navigation: React.FunctionComponent = () => {
         </Link>
         <ThemeSwitch />
       </div>
-    </div>
+    </nav>
   )
 }
 
